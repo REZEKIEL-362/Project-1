@@ -8,6 +8,18 @@
   <link rel="stylesheet" media="screen" href="css/screen.css" />
 </head>
 <body>
-
+ <main>
+    <form id ="join" method="get" action="#null" autocomplete="on" name="Subscribe" onsubmit="return">
+      <label for="fname">First Name: </label><input type="text" name="fname" id="fname" placeholder="First Name" required>
+      <label for="lname">Last Name: </label><input type="text" name="lname" id="lname" placeholder="Last Name" required>
+      <label for="email">Email: </label><input type="email" name="email" id="email" placeholder="doejohn@ymail.com" required>
+      <div id="notify">
+        <input type="checkbox" id="notification" name="notification" value="notification"/>
+      </div>
+      <div id="button">
+        <input type="submit" name="submit" id="submit" value="Subscribe" onclick ="confirm();">
+      </div>
+    </form>
+  </main>
 </body>
 </html>
