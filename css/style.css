@@ -1,0 +1,13 @@
+html{
+  font-size: 1.0em; /* 16px */
+  line-height: 1.25em; /* 20px*/
+  text-rendering: optimizeLegibility;
+}
+
+body{
+  font-family: 'Exo', sans-serif;
+  color: black;
+  background-color:#F0F0F0;
+  padding-top:20px;
+
+}
