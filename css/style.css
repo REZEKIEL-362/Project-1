@@ -1,11 +1,11 @@
 html{
-  font-size: 1.0em; /* 16px */
-  line-height: 1.25em; /* 20px*/
+  font-size: 1.0em; 
+  line-height: 1.25em; 
   text-rendering: optimizeLegibility;
 }
 
 body{
-  font-family: 'Exo', sans-serif;
+  font-family: 'Questrial', sans-serif;
   color: black;
   background-color:#F0F0F0;
   padding-top:20px;
