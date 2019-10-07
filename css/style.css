@@ -156,5 +156,6 @@ input[type="checkbox"] {
     width: 2.007em;
     height: 2.007em;
   }
-
 }
+/* 658px Break Point 2: Small Devices, Tablets, PCs */
+@media screen and (min-width: 658px) {
