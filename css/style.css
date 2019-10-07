@@ -109,3 +109,8 @@ input[type="checkbox"] {
   cursor: pointer;
   font-family: 'Exo', sans-serif;
 }
+
+/* ===== MODULAR STYLES ===== */
+/* === media queiries === */
+/* 400px Break Point 1: Extra Small Devices, Phones */
+@media screen and (min-width: 300px)
