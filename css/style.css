@@ -159,3 +159,32 @@ input[type="checkbox"] {
 }
 /* 658px Break Point 2: Small Devices, Tablets, PCs */
 @media screen and (min-width: 658px) {
+	body{
+    background-color: white;
+  }
+  
+  form{
+    width:80%;
+    margin:auto;
+    text-align:left;
+  }
+  input[type="text"],
+  input[type="email"] {
+    width: 60%;
+    border-radius: 5px;
+    margin:.3em 7em .3em;
+    padding: 6px;
+    text-align:center;
+  }
+
+  #notification {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0.0em;
+    margin-right: 0.6em;
+    width: 1.364em;
+    height: 1.664em;
+    }
+}
