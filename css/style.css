@@ -188,3 +188,22 @@ input[type="checkbox"] {
     height: 1.664em;
     }
 }
+/* 992px Break Point 3: Desktop Computers, Large screens */
+@media screen and (min-width: 996px) {
+  body{
+    background-color:#DCDCDC	
+  }
+  form{
+    width:80%;
+    margin:auto;
+    text-align:left;
+  }
+
+  main {
+    width: 80%;
+    display: block;
+    margin:auto;
+    text-align: center;
+    }
+
+}
