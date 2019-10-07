@@ -204,6 +204,7 @@ input[type="checkbox"] {
     display: block;
     margin:auto;
     text-align: center;
+		padding: 15px 15px;
     }
 
 }
