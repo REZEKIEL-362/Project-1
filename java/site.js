@@ -17,3 +17,4 @@ function confirm(event) {
       return true;
     }
   }
+}
