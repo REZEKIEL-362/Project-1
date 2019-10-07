@@ -44,3 +44,68 @@ p {
   font-weight: normal;
 	text-align: center;
 }
+#join{
+  background-color:#A9A9A9	;
+}
+
+input{
+  resize: vertical;
+  display: inline-block;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/*subscribe button css */
+
+#notify {
+  padding-top: 0.809em;
+  padding-bottom: 0.809em;
+  width: 100%;
+  text-align:center;
+}
+
+label[for=notification] {
+  width: 100%;
+  display: inline;
+  padding: 0; 
+}
+#notification {
+  width: auto;
+  display: inline;
+  padding: 0;
+  vertical-align: top;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 0.0em;
+  margin-right: 0.6em;
+  width: 1.364em;
+  height: 1.664em;
+}
+
+input[type="checkbox"] {
+  display: inline;
+}
+/* submit css */
+
+#button {
+  text-align:center;
+  width: 30%;
+  padding-top: 0.809em;
+  padding-bottom: 0.809em;
+  margin:auto;
+}
+
+#submit {
+  width: 100%;   
+  padding-top: 0.809em;
+  padding-bottom: 0.809em;
+  border-radius: 0.236em;
+  border-style: hidden;
+  color: black;
+}
+#submit:hover{
+  background-color: #DCDCDC	;
+  color: black;
+  cursor: pointer;
+  font-family: 'Exo', sans-serif;
+}
